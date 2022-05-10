@@ -23,4 +23,5 @@ public abstract class Rectangulo extends Figura{
     public void setAncho(double ancho) {
         this.ancho = ancho;
     }
+
 }
