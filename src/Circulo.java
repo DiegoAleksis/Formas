@@ -18,6 +18,9 @@ public abstract class Circulo extends Figura {
     public void setRadio(double radio) {
         this.radio = radio;
     }
+    public  float calcularArea(){
+        return ( float ) ( Math . PI * Math . pow ( radio , 2 ));
+    }
 
 }
 
